@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyInsert</title>
+
+    <link rel="stylesheet" href="/css/employee/survey/surveyInsert.css">
+</head>
+<body>
+
+    <section class="container">
+
+        <!-- 설문조사 대제목 -->
+        <div class="questionDiv">
+            <div class="questionBox">
+                <i class="fa-solid fa-asterisk"></i>
+                <input id="questionBoxInput" placeholder="설문 제목을 입력해주세요.">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+
+        <div class="surveyAdd">
+            <button class="default-btn baby-blue-btn" id="multipleAdd">객관식 질문 추가</button>
+            <button class="default-btn baby-blue-btn" id="subjectiveAdd">주관식 질문 추가</button>
+        </div>
+
+    </section>
+
+    <!-- 객관식 클릭하면 소제목 입력하는 부분, 생성됨 -->
+    <!-- 추가하기 버튼을 누르면 객관식 항목이 늘어남 -->
+    <section class="container titleContainer">
+
+    </section>
+
+
+    <!-- <section class="container">
+        <div class="littleTitle">
+            <div class="answerDiv">
+                <div class="answerTitle">Q. <input value="명절 선물 투표"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="container containerSide">
+
+        <div class="surveyBtn">
+            <!-- 질문 추가 버튼 -->
+            <div>
+                <button class="default-btn glucose-border-btn surveyQuestionAdd btnHidden">객관식 문항 추가</button>
+            </div>
+    
+            <!-- 설문 등록하기 버튼 -->
+            <div>
+                <button class="default-btn glucose-btn">등록하기</button>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <script src="/js/employee/survey/surveyInsert.js"> </script>
+
+    <script src="https://kit.fontawesome.com/247c6d7026.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

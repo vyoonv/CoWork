@@ -1,0 +1,79 @@
+/* 등록버튼 */
+.defaultBtn {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+/* 목록 화면 버튼 */
+.listBtn {
+    width: 80%;
+}
+
+/************************** 등록 화면 */
+/* 등록 화면 버튼 */
+.insBtn {
+    width: 59%;
+}
+
+.margin10 {
+    margin-left: 10px;
+}
+
+.insertForm div:td:nth-child(1) {
+    margin-right: 55px;
+}
+
+.ins-css.insertForm {
+    display: flex;
+}
+
+/* 등록 라벨 */
+.ins-css.insertForm div {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+/* 버튼있는 input */
+.inputBtn {
+    width: 70%;
+    margin-right: 10px !important;
+}
+
+/* 첨부파일 */
+.fileUploadForm {
+    margin-top: 50px !important;
+}
+
+.fa-solid, .fas::before {
+    margin-right: 10px;
+}
+
+.colorGray {
+    color: #bbb;
+    margin-left: 10px;
+}
+
+table.default-line {
+    width: 100%;
+}
+
+table.default-line td {
+    padding: 10px;
+}
+
+table.default-line td:nth-child(1) {
+    width: 95%;
+}
+
+.insertCombo {
+    display: flex;
+}
+
+/* 에디터 */
+.default-line.smarteditorDetail {
+    height: 500px;
+    padding: 15px;
+}

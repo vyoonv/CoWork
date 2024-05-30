@@ -1,0 +1,23 @@
+<header>
+
+    <div id="headerMain">
+        <!-- CoWork 로고 -->
+        <div id="coworkLogoW"> 
+            <img src="/images/logo6.png" id="whiteLogo">
+            <span id="letterLogoW">CoWork</span>
+        </div>
+
+        <div class="buttons"> 
+            <a id="signupBtn" href="/user/term">회원가입</a>
+            <a id="loginBtn" href="#">로그인</a>
+        </div>
+
+</header>
+
+<script th:inline="javascript">
+	const coworkLogoW = document.querySelector("#coworkLogoW"); 
+
+    coworkLogoW.addEventListener('click', ()=> {
+        location.href = "/"; 
+    })
+</script>
