@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminTeamBoard</title>
+
+    <th:block th:replace="~{common/common}"></th:block>
+    <link rel="stylesheet" href="/css/admin/teamBoard/teamBoard.css">
+</head>
+<body>
+    <!-- leftBar -->
+    <div th:replace="~{admin/left/adminLeftSideBar}"></div>
+
+    <div id="fullContainer">
+		<div id="leftEmptySpace">
+		</div>
+		<div id="rightSection22">
+			<div>
+				 팀 게시판
+			</div>
+			<div>
+                <!-- 팀 게시판 추가 수정 버튼 -->
+				<form action="#" method="post" id="teamBoardAddInputForm">
+					<input type="text" id="teamBoardAddInput">
+					<button class="default-btn glucose-btn">추가</button>
+					<button class="default-btn glucose-btn">수정</button>
+				</form>
+			</div>
+			<div id="contentContainerInteamBoard">
+				<div id="contentContainerInteamBoardInner">
+					<div id="firstLoop">
+						<div>영업 1팀</div>
+						<button class="deleteXBtn"><i class="fa-solid fa-xmark"></i></button>
+					</div>
+					<div id="secondLoop">
+						<div>영업 2팀</div>
+						<button class="deleteXBtn"><i class="fa-solid fa-xmark"></i></button>
+					</div>
+					<div id="thirdLoop">
+						<div>마케팅팀</div>
+						<button class="deleteXBtn"><i class="fa-solid fa-xmark"></i></button>
+					</div>
+					<div id="fourthLoop">
+						<div>개발3팀</div>
+						<button class="deleteXBtn"><i class="fa-solid fa-xmark"></i></button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+    <script src="/js/admin/teamBoard/teamBoard.js"></script>
+</body>
+</html>
